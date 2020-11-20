@@ -5,12 +5,19 @@
     <persistence-unit name="ormprueba">
         <class>ucab.dsw.entidades.TipoUsuario</class>
         <class>ucab.dsw.entidades.Usuario</class>
+        <class>ucab.dsw.entidades.SolicitudEnt</class>
+        <class>ucab.dsw.entidades.SubcategoriaEnt</class>
+        <class>ucab.dsw.entidades.EstudioEnt</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mydb"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
+<<<<<<< HEAD
             <property name="javax.persistence.jdbc.password" value="P.onco+356h"/>
+=======
+            <property name="javax.persistence.jdbc.password" value="admin"/>
+>>>>>>> 9eff9b32f1472e0c77891eed1636342c8fd28aa1
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="eclipselink.logging.level" value="FINE"/>
         </properties>

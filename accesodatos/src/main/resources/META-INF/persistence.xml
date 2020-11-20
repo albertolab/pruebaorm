@@ -18,7 +18,7 @@
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mydb"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="P.onco+356h"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="eclipselink.logging.level" value="FINE"/>
         </properties>
